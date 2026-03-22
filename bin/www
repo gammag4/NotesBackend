@@ -79,7 +79,7 @@ function onListening() {
  * Get port from environment and store in Express.
  */
 
-port = normalizePort(env.PORT || '3000');
+port = normalizePort(env.PORT || '3001');
 app.set('port', port);
 
 /**
